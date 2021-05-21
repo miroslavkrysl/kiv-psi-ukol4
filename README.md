@@ -3,8 +3,8 @@
 ![This is the caption](screenshot.png)
 
 - NAT on router **R2**  _eth0_
-- DHCP on **R1** _eth1_
-- DNS forwarding **R1** -> **R2** -> internet 
+- DHCP on router **R1** _eth1_
+- DNS forwarding A -> **R1** -> **R2** -> internet 
 
 ### Subnets address space
 
@@ -25,7 +25,7 @@ max address: `192.168.123.30`
 
 #### Subnet B
 
-address space: `192.168.123.32/30`
+address space: `192.168.123.32/30`\
 max 2 hosts\
 min address: `192.168.123.33`\
 max address: `192.168.123.34`
